@@ -1,6 +1,6 @@
 select *
-from Perfomance
+from Performance
 where Score = (select max(Score)
-                  from Perfomance
+                  from Performance
                   where Score < (select max(Score)
-                                 from Perfomance));
+                                 from Performance));
