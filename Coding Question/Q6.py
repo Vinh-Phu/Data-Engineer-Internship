@@ -65,16 +65,17 @@ class linkList:
         while(currN):
             print(currN.data , end = ' ')
             currN = currN.next
-llist = linkList()
- 
-llist.push(1)
-llist.push(1)
-llist.push(3)
-llist.push(4)
-llist.push(4)
-llist.push(5)
-llist.push(6)
-llist.push(6)
-llist.sortList()
-llist.removeDuplicates()
-llist.printList()
+
+if __name__ == "__main__":
+    llist = linkList()
+    llist.push(1)
+    llist.push(1)
+    llist.push(3)
+    llist.push(4)
+    llist.push(4)
+    llist.push(5)
+    llist.push(6)
+    llist.push(6)
+    llist.sortList()
+    llist.removeDuplicates()
+    llist.printList()

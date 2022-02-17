@@ -24,9 +24,9 @@ def findMedian(arr1,arr2):
         Median = (arr[leftMPos]+arr[rightMPos])/2
     print('Merge array:',arr,'and Median is', Median)
     return Median
-def main():
+if __name__ == "__main__":
      arr1 = [1,3,6]
      arr2 = [1,2,10]
      Median = findMedian(arr1,arr2)
-main()
+
 
